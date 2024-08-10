@@ -17,17 +17,60 @@
     <!-- Stylesheets End -->
 </head>
 <body>
-    <h1>Pagina de inicio</h1>
-    <br>
-    
-    <a href="./">
-        <img src="./assets/brand/Brad-dektop.svg" alt="">
-    </a>
+    <header class="header">
+		<div class="header-wrapper">
+			<a class="header-brand" href="./">
+				<img src="./assets/brand/Brad-dektop.svg" alt="">
+			</a>
+			<nav class="header-nav">
+				<a class="header-nav-item" href="about.html">acerca de</a>
+				<a class="header-nav-item"href="projects.html">proyectos</a>
+				<a class="header-nav-item"href="contact.html">contacto</a>
+				<a class="header-nav-button"href="#">whatsapp</a>
+			</nav>
+		</div>
+	</header>
+	<div class="hero">
+		<div class="hero-wrapper">
+			<div class="hero-content">
+				<h1 class="hero-title">Diseñador multimedia</h1>
+				<p class="hero-paragraph">Yo soy Gadiel soy un diseñador mulrimedia que se dedica mas en la edicion de audios</p>
+				<a class="hero-button" href="#">whatsapp</a>
+			</div>
+			<div class="hero-profile">
+				<img class="hero-image" src="./assets/brand/profile-pic.png" alt="Foto de Gadiel">
+			</div>
+		</div>
+	</div>
 
-    <nav>
-        <a href="about.html">Acerca de</a>
-        <a href="projects.html">Proyectos</a>
-        <a href="contact.html">Contacto</a>
-    </nav>
+    <!-- Contenido primcipal de la pagina -->
+    <main class="main">
+        <div class="main-wrapper">
+            <section class="services">
+                <div class="services-content">
+                    <h2 class="services-title">Mi experiencia</h2>
+                    <p class="services-paragraph">Eh tenido una experiencia de 3 años en el diseño multimedias aun sigo aprendiendo dia con dia</p>
+                </div>
+                <div class="services-cards">
+                    <div class="services-item">
+                        <img class="service-image" src="" alt="Icono de marca Grafica">
+                        <h3 class="services-subtitle">Marca grafica</h3>
+                        <p></p>
+                    </div>
+                    <div class="services-item">
+                        <img class="service-image" src="" alt="Icono motion graphics">
+                        <h3 class="services-subtitle">Motions graphics</h3>
+                        <p class="services-description"></p>
+                    </div>
+                    <div class="services-item">
+                        <img class="service-image" src="" alt="icono de Diseño web">
+                        <h3 class="services-subtitle">Diseño web</h3>
+                        <p></p>
+                    </div>    
+                </div>
+            </section>
+
+        </div>
+    </main>
 </body>
 </html>
